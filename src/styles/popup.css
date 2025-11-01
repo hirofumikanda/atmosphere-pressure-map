@@ -1,0 +1,41 @@
+/* MapLibre GL ポップアップのスタイリング */
+.maplibregl-popup {
+  max-width: 200px;
+}
+
+.maplibregl-popup-content {
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  border: 1px solid #ccc;
+}
+
+.maplibregl-popup-tip {
+  border-top-color: #ccc;
+}
+
+/* ポップアップ内容のスタイリング */
+.pressure-popup {
+  padding: 8px 12px;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.pressure-popup strong {
+  color: #333;
+  font-weight: 600;
+}
+
+.pressure-value {
+  font-size: 16px;
+  color: #2166ac;
+  font-weight: 500;
+  margin-top: 2px;
+}
+
+.time-info {
+  font-size: 12px;
+  color: #666;
+  margin-top: 4px;
+  font-style: italic;
+}

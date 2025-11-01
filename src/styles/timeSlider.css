@@ -1,0 +1,300 @@
+.time-slider-container {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 12px;
+  padding: 16px 24px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(8px);
+  min-width: 400px;
+  max-width: 90vw;
+  z-index: 1000;
+  transition: all 0.3s ease;
+}
+
+.time-slider-header {
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.time-label {
+  font-weight: 600;
+  font-size: 16px;
+  color: #333;
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.time-slider-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+
+.time-min,
+.time-max {
+  font-size: 12px;
+  color: #666;
+  min-width: 40px;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.time-slider {
+  flex: 1;
+  height: 6px;
+  border-radius: 3px;
+  background: #e0e0e0;
+  outline: none;
+  -webkit-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  min-width: 0; /* フレックスアイテムの最小幅を0に */
+}
+
+.time-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #2166ac;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: all 0.2s ease;
+}
+
+.time-slider::-webkit-slider-thumb:hover {
+  background: #1a5490;
+  transform: scale(1.1);
+}
+
+.time-slider::-webkit-slider-thumb:active {
+  transform: scale(1.2);
+}
+
+.time-slider::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #2166ac;
+  cursor: pointer;
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: all 0.2s ease;
+}
+
+.time-slider::-moz-range-thumb:hover {
+  background: #1a5490;
+  transform: scale(1.1);
+}
+
+.time-slider::-moz-range-thumb:active {
+  transform: scale(1.2);
+}
+
+.time-markers {
+  position: relative;
+  height: 20px;
+  margin-top: 4px;
+}
+
+.time-marker {
+  position: absolute;
+  top: 0;
+  transform: translateX(-50%);
+  font-size: 10px;
+  color: #888;
+  line-height: 20px;
+  pointer-events: none;
+  user-select: none;
+}
+
+.time-marker.active {
+  color: #2166ac;
+  font-weight: 600;
+}
+
+/* タブレット対応 */
+@media (max-width: 1024px) {
+  .time-slider-container {
+    min-width: 350px;
+    padding: 14px 20px;
+  }
+  
+  .time-label {
+    font-size: 15px;
+  }
+}
+
+/* スマートフォン（横向き）対応 */
+@media (max-width: 768px) {
+  .time-slider-container {
+    min-width: 300px;
+    max-width: calc(100vw - 40px);
+    left: 20px;
+    right: 20px;
+    transform: none;
+    bottom: 15px;
+    padding: 12px 18px;
+  }
+  
+  .time-label {
+    font-size: 14px;
+  }
+  
+  .time-slider-wrapper {
+    gap: 10px;
+  }
+  
+  .time-min,
+  .time-max {
+    min-width: 35px;
+    font-size: 11px;
+  }
+}
+
+/* スマートフォン（縦向き）対応 */
+@media (max-width: 480px) {
+  .time-slider-container {
+    min-width: 250px;
+    max-width: calc(100vw - 20px);
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    padding: 10px 14px;
+    border-radius: 8px;
+  }
+  
+  .time-slider-container.mobile {
+    /* モバイル専用スタイル */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .time-label {
+    font-size: 13px;
+  }
+  
+  .time-slider-header {
+    margin-bottom: 10px;
+  }
+  
+  .time-slider-wrapper {
+    gap: 8px;
+    margin-bottom: 6px;
+  }
+  
+  .time-min,
+  .time-max {
+    min-width: 30px;
+    font-size: 10px;
+  }
+  
+  .time-slider {
+    height: 8px; /* モバイルでは太くして操作しやすく */
+  }
+  
+  .time-slider::-webkit-slider-thumb {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .time-slider::-moz-range-thumb {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .time-markers {
+    height: 16px;
+    margin-top: 2px;
+  }
+  
+  .time-marker {
+    font-size: 9px;
+    line-height: 16px;
+  }
+}
+
+/* 極小デバイス対応 */
+@media (max-width: 320px) {
+  .time-slider-container {
+    min-width: 200px;
+    padding: 8px 12px;
+  }
+  
+  .time-label {
+    font-size: 12px;
+  }
+  
+  .time-slider-wrapper {
+    gap: 6px;
+  }
+  
+  .time-min,
+  .time-max {
+    min-width: 25px;
+    font-size: 9px;
+  }
+}
+
+/* ダークモード対応 */
+@media (prefers-color-scheme: dark) {
+  .time-slider-container {
+    background: rgba(30, 30, 30, 0.95);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  }
+  
+  .time-label {
+    color: #f0f0f0;
+  }
+  
+  .time-min,
+  .time-max {
+    color: #ccc;
+  }
+  
+  .time-slider {
+    background: #444;
+  }
+  
+  .time-marker {
+    color: #aaa;
+  }
+  
+  .time-marker.active {
+    color: #4a9eff;
+  }
+}
+
+/* 高DPI画面対応 */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .time-slider-container {
+    backdrop-filter: blur(10px);
+  }
+}
+
+/* タッチデバイス対応 */
+@media (hover: none) and (pointer: coarse) {
+  .time-slider::-webkit-slider-thumb {
+    width: 28px;
+    height: 28px;
+  }
+  
+  .time-slider::-moz-range-thumb {
+    width: 28px;
+    height: 28px;
+  }
+  
+  .time-slider::-webkit-slider-thumb:hover {
+    transform: none; /* タッチデバイスではホバー効果を無効化 */
+  }
+  
+  .time-slider::-moz-range-thumb:hover {
+    transform: none;
+  }
+}
