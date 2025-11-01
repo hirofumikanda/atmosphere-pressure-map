@@ -1,0 +1,2078 @@
+{
+  "version": 8,
+  "sources": {
+    "prmsl_000": {
+      "type": "raster-dem",
+      "url": "pmtiles:///atmosphere-pressure-map/data/prmsl_hpa_terrainrgb_20251101_000.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 4,
+      "attribution": "<a href='https://registry.opendata.aws/noaa-gfs-bdp-pds/' target='_blank'>Processed from NOAA Global Forecast System (GFS) data accessed on 20251101</a>"
+    },
+    "prmsl_001": {
+      "type": "raster-dem",
+      "url": "pmtiles:///atmosphere-pressure-map/data/prmsl_hpa_terrainrgb_20251101_001.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 4,
+      "attribution": "<a href='https://registry.opendata.aws/noaa-gfs-bdp-pds/' target='_blank'>Processed from NOAA Global Forecast System (GFS) data accessed on 20251101</a>"
+    },
+    "prmsl_002": {
+      "type": "raster-dem",
+      "url": "pmtiles:///atmosphere-pressure-map/data/prmsl_hpa_terrainrgb_20251101_002.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 4,
+      "attribution": "<a href='https://registry.opendata.aws/noaa-gfs-bdp-pds/' target='_blank'>Processed from NOAA Global Forecast System (GFS) data accessed on 20251101</a>"
+    },
+    "prmsl_003": {
+      "type": "raster-dem",
+      "url": "pmtiles:///atmosphere-pressure-map/data/prmsl_hpa_terrainrgb_20251101_003.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 4,
+      "attribution": "<a href='https://registry.opendata.aws/noaa-gfs-bdp-pds/' target='_blank'>Processed from NOAA Global Forecast System (GFS) data accessed on 20251101</a>"
+    },
+    "prmsl_004": {
+      "type": "raster-dem",
+      "url": "pmtiles:///atmosphere-pressure-map/data/prmsl_hpa_terrainrgb_20251101_004.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 4,
+      "attribution": "<a href='https://registry.opendata.aws/noaa-gfs-bdp-pds/' target='_blank'>Processed from NOAA Global Forecast System (GFS) data accessed on 20251101</a>"
+    },
+    "prmsl_005": {
+      "type": "raster-dem",
+      "url": "pmtiles:///atmosphere-pressure-map/data/prmsl_hpa_terrainrgb_20251101_005.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 4,
+      "attribution": "<a href='https://registry.opendata.aws/noaa-gfs-bdp-pds/' target='_blank'>Processed from NOAA Global Forecast System (GFS) data accessed on 20251101</a>"
+    },
+    "prmsl_006": {
+      "type": "raster-dem",
+      "url": "pmtiles:///atmosphere-pressure-map/data/prmsl_hpa_terrainrgb_20251101_006.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 4,
+      "attribution": "<a href='https://registry.opendata.aws/noaa-gfs-bdp-pds/' target='_blank'>Processed from NOAA Global Forecast System (GFS) data accessed on 20251101</a>"
+    },
+    "prmsl_007": {
+      "type": "raster-dem",
+      "url": "pmtiles:///atmosphere-pressure-map/data/prmsl_hpa_terrainrgb_20251101_007.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 4,
+      "attribution": "<a href='https://registry.opendata.aws/noaa-gfs-bdp-pds/' target='_blank'>Processed from NOAA Global Forecast System (GFS) data accessed on 20251101</a>"
+    },
+    "prmsl_008": {
+      "type": "raster-dem",
+      "url": "pmtiles:///atmosphere-pressure-map/data/prmsl_hpa_terrainrgb_20251101_008.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 4,
+      "attribution": "<a href='https://registry.opendata.aws/noaa-gfs-bdp-pds/' target='_blank'>Processed from NOAA Global Forecast System (GFS) data accessed on 20251101</a>"
+    },
+    "prmsl_009": {
+      "type": "raster-dem",
+      "url": "pmtiles:///atmosphere-pressure-map/data/prmsl_hpa_terrainrgb_20251101_009.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 4,
+      "attribution": "<a href='https://registry.opendata.aws/noaa-gfs-bdp-pds/' target='_blank'>Processed from NOAA Global Forecast System (GFS) data accessed on 20251101</a>"
+    },
+    "prmsl_010": {
+      "type": "raster-dem",
+      "url": "pmtiles:///atmosphere-pressure-map/data/prmsl_hpa_terrainrgb_20251101_010.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 4,
+      "attribution": "<a href='https://registry.opendata.aws/noaa-gfs-bdp-pds/' target='_blank'>Processed from NOAA Global Forecast System (GFS) data accessed on 20251101</a>"
+    },
+    "prmsl_011": {
+      "type": "raster-dem",
+      "url": "pmtiles:///atmosphere-pressure-map/data/prmsl_hpa_terrainrgb_20251101_011.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 4,
+      "attribution": "<a href='https://registry.opendata.aws/noaa-gfs-bdp-pds/' target='_blank'>Processed from NOAA Global Forecast System (GFS) data accessed on 20251101</a>"
+    },
+    "prmsl_012": {
+      "type": "raster-dem",
+      "url": "pmtiles:///atmosphere-pressure-map/data/prmsl_hpa_terrainrgb_20251101_012.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 4,
+      "attribution": "<a href='https://registry.opendata.aws/noaa-gfs-bdp-pds/' target='_blank'>Processed from NOAA Global Forecast System (GFS) data accessed on 20251101</a>"
+    },
+    "prmsl_013": {
+      "type": "raster-dem",
+      "url": "pmtiles:///atmosphere-pressure-map/data/prmsl_hpa_terrainrgb_20251101_013.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 4,
+      "attribution": "<a href='https://registry.opendata.aws/noaa-gfs-bdp-pds/' target='_blank'>Processed from NOAA Global Forecast System (GFS) data accessed on 20251101</a>"
+    },
+    "prmsl_014": {
+      "type": "raster-dem",
+      "url": "pmtiles:///atmosphere-pressure-map/data/prmsl_hpa_terrainrgb_20251101_014.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 4,
+      "attribution": "<a href='https://registry.opendata.aws/noaa-gfs-bdp-pds/' target='_blank'>Processed from NOAA Global Forecast System (GFS) data accessed on 20251101</a>"
+    },
+    "prmsl_015": {
+      "type": "raster-dem",
+      "url": "pmtiles:///atmosphere-pressure-map/data/prmsl_hpa_terrainrgb_20251101_015.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 4,
+      "attribution": "<a href='https://registry.opendata.aws/noaa-gfs-bdp-pds/' target='_blank'>Processed from NOAA Global Forecast System (GFS) data accessed on 20251101</a>"
+    },
+    "prmsl_016": {
+      "type": "raster-dem",
+      "url": "pmtiles:///atmosphere-pressure-map/data/prmsl_hpa_terrainrgb_20251101_016.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 4,
+      "attribution": "<a href='https://registry.opendata.aws/noaa-gfs-bdp-pds/' target='_blank'>Processed from NOAA Global Forecast System (GFS) data accessed on 20251101</a>"
+    },
+    "prmsl_017": {
+      "type": "raster-dem",
+      "url": "pmtiles:///atmosphere-pressure-map/data/prmsl_hpa_terrainrgb_20251101_017.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 4,
+      "attribution": "<a href='https://registry.opendata.aws/noaa-gfs-bdp-pds/' target='_blank'>Processed from NOAA Global Forecast System (GFS) data accessed on 20251101</a>"
+    },
+    "prmsl_018": {
+      "type": "raster-dem",
+      "url": "pmtiles:///atmosphere-pressure-map/data/prmsl_hpa_terrainrgb_20251101_018.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 4,
+      "attribution": "<a href='https://registry.opendata.aws/noaa-gfs-bdp-pds/' target='_blank'>Processed from NOAA Global Forecast System (GFS) data accessed on 20251101</a>"
+    },
+    "prmsl_019": {
+      "type": "raster-dem",
+      "url": "pmtiles:///atmosphere-pressure-map/data/prmsl_hpa_terrainrgb_20251101_019.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 4,
+      "attribution": "<a href='https://registry.opendata.aws/noaa-gfs-bdp-pds/' target='_blank'>Processed from NOAA Global Forecast System (GFS) data accessed on 20251101</a>"
+    },
+    "prmsl_020": {
+      "type": "raster-dem",
+      "url": "pmtiles:///atmosphere-pressure-map/data/prmsl_hpa_terrainrgb_20251101_020.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 4,
+      "attribution": "<a href='https://registry.opendata.aws/noaa-gfs-bdp-pds/' target='_blank'>Processed from NOAA Global Forecast System (GFS) data accessed on 20251101</a>"
+    },
+    "prmsl_021": {
+      "type": "raster-dem",
+      "url": "pmtiles:///atmosphere-pressure-map/data/prmsl_hpa_terrainrgb_20251101_021.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 4,
+      "attribution": "<a href='https://registry.opendata.aws/noaa-gfs-bdp-pds/' target='_blank'>Processed from NOAA Global Forecast System (GFS) data accessed on 20251101</a>"
+    },
+    "prmsl_022": {
+      "type": "raster-dem",
+      "url": "pmtiles:///atmosphere-pressure-map/data/prmsl_hpa_terrainrgb_20251101_022.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 4,
+      "attribution": "<a href='https://registry.opendata.aws/noaa-gfs-bdp-pds/' target='_blank'>Processed from NOAA Global Forecast System (GFS) data accessed on 20251101</a>"
+    },
+    "prmsl_023": {
+      "type": "raster-dem",
+      "url": "pmtiles:///atmosphere-pressure-map/data/prmsl_hpa_terrainrgb_20251101_023.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 4,
+      "attribution": "<a href='https://registry.opendata.aws/noaa-gfs-bdp-pds/' target='_blank'>Processed from NOAA Global Forecast System (GFS) data accessed on 20251101</a>"
+    },
+    "isobar_000": {
+      "type": "vector",
+      "url": "pmtiles:///atmosphere-pressure-map/data/prmsl_isobar_20251101_000.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 4,
+      "attribution": "<a href='https://registry.opendata.aws/noaa-gfs-bdp-pds/' target='_blank'>Processed from NOAA Global Forecast System (GFS) data accessed on 20251101</a>"
+    },
+    "isobar_001": {
+      "type": "vector",
+      "url": "pmtiles:///atmosphere-pressure-map/data/prmsl_isobar_20251101_001.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 4,
+      "attribution": "<a href='https://registry.opendata.aws/noaa-gfs-bdp-pds/' target='_blank'>Processed from NOAA Global Forecast System (GFS) data accessed on 20251101</a>"
+    },
+    "isobar_002": {
+      "type": "vector",
+      "url": "pmtiles:///atmosphere-pressure-map/data/prmsl_isobar_20251101_002.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 4,
+      "attribution": "<a href='https://registry.opendata.aws/noaa-gfs-bdp-pds/' target='_blank'>Processed from NOAA Global Forecast System (GFS) data accessed on 20251101</a>"
+    },
+    "isobar_003": {
+      "type": "vector",
+      "url": "pmtiles:///atmosphere-pressure-map/data/prmsl_isobar_20251101_003.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 4,
+      "attribution": "<a href='https://registry.opendata.aws/noaa-gfs-bdp-pds/' target='_blank'>Processed from NOAA Global Forecast System (GFS) data accessed on 20251101</a>"
+    },
+    "isobar_004": {
+      "type": "vector",
+      "url": "pmtiles:///atmosphere-pressure-map/data/prmsl_isobar_20251101_004.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 4,
+      "attribution": "<a href='https://registry.opendata.aws/noaa-gfs-bdp-pds/' target='_blank'>Processed from NOAA Global Forecast System (GFS) data accessed on 20251101</a>"
+    },
+    "isobar_005": {
+      "type": "vector",
+      "url": "pmtiles:///atmosphere-pressure-map/data/prmsl_isobar_20251101_005.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 4,
+      "attribution": "<a href='https://registry.opendata.aws/noaa-gfs-bdp-pds/' target='_blank'>Processed from NOAA Global Forecast System (GFS) data accessed on 20251101</a>"
+    },
+    "isobar_006": {
+      "type": "vector",
+      "url": "pmtiles:///atmosphere-pressure-map/data/prmsl_isobar_20251101_006.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 4,
+      "attribution": "<a href='https://registry.opendata.aws/noaa-gfs-bdp-pds/' target='_blank'>Processed from NOAA Global Forecast System (GFS) data accessed on 20251101</a>"
+    },
+    "isobar_007": {
+      "type": "vector",
+      "url": "pmtiles:///atmosphere-pressure-map/data/prmsl_isobar_20251101_007.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 4,
+      "attribution": "<a href='https://registry.opendata.aws/noaa-gfs-bdp-pds/' target='_blank'>Processed from NOAA Global Forecast System (GFS) data accessed on 20251101</a>"
+    },
+    "isobar_008": {
+      "type": "vector",
+      "url": "pmtiles:///atmosphere-pressure-map/data/prmsl_isobar_20251101_008.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 4,
+      "attribution": "<a href='https://registry.opendata.aws/noaa-gfs-bdp-pds/' target='_blank'>Processed from NOAA Global Forecast System (GFS) data accessed on 20251101</a>"
+    },
+    "isobar_009": {
+      "type": "vector",
+      "url": "pmtiles:///atmosphere-pressure-map/data/prmsl_isobar_20251101_009.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 4,
+      "attribution": "<a href='https://registry.opendata.aws/noaa-gfs-bdp-pds/' target='_blank'>Processed from NOAA Global Forecast System (GFS) data accessed on 20251101</a>"
+    },
+    "isobar_010": {
+      "type": "vector",
+      "url": "pmtiles:///atmosphere-pressure-map/data/prmsl_isobar_20251101_010.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 4,
+      "attribution": "<a href='https://registry.opendata.aws/noaa-gfs-bdp-pds/' target='_blank'>Processed from NOAA Global Forecast System (GFS) data accessed on 20251101</a>"
+    },
+    "isobar_011": {
+      "type": "vector",
+      "url": "pmtiles:///atmosphere-pressure-map/data/prmsl_isobar_20251101_011.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 4,
+      "attribution": "<a href='https://registry.opendata.aws/noaa-gfs-bdp-pds/' target='_blank'>Processed from NOAA Global Forecast System (GFS) data accessed on 20251101</a>"
+    },
+    "isobar_012": {
+      "type": "vector",
+      "url": "pmtiles:///atmosphere-pressure-map/data/prmsl_isobar_20251101_012.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 4,
+      "attribution": "<a href='https://registry.opendata.aws/noaa-gfs-bdp-pds/' target='_blank'>Processed from NOAA Global Forecast System (GFS) data accessed on 20251101</a>"
+    },
+    "isobar_013": {
+      "type": "vector",
+      "url": "pmtiles:///atmosphere-pressure-map/data/prmsl_isobar_20251101_013.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 4,
+      "attribution": "<a href='https://registry.opendata.aws/noaa-gfs-bdp-pds/' target='_blank'>Processed from NOAA Global Forecast System (GFS) data accessed on 20251101</a>"
+    },
+    "isobar_014": {
+      "type": "vector",
+      "url": "pmtiles:///atmosphere-pressure-map/data/prmsl_isobar_20251101_014.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 4,
+      "attribution": "<a href='https://registry.opendata.aws/noaa-gfs-bdp-pds/' target='_blank'>Processed from NOAA Global Forecast System (GFS) data accessed on 20251101</a>"
+    },
+    "isobar_015": {
+      "type": "vector",
+      "url": "pmtiles:///atmosphere-pressure-map/data/prmsl_isobar_20251101_015.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 4,
+      "attribution": "<a href='https://registry.opendata.aws/noaa-gfs-bdp-pds/' target='_blank'>Processed from NOAA Global Forecast System (GFS) data accessed on 20251101</a>"
+    },
+    "isobar_016": {
+      "type": "vector",
+      "url": "pmtiles:///atmosphere-pressure-map/data/prmsl_isobar_20251101_016.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 4,
+      "attribution": "<a href='https://registry.opendata.aws/noaa-gfs-bdp-pds/' target='_blank'>Processed from NOAA Global Forecast System (GFS) data accessed on 20251101</a>"
+    },
+    "isobar_017": {
+      "type": "vector",
+      "url": "pmtiles:///atmosphere-pressure-map/data/prmsl_isobar_20251101_017.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 4,
+      "attribution": "<a href='https://registry.opendata.aws/noaa-gfs-bdp-pds/' target='_blank'>Processed from NOAA Global Forecast System (GFS) data accessed on 20251101</a>"
+    },
+    "isobar_018": {
+      "type": "vector",
+      "url": "pmtiles:///atmosphere-pressure-map/data/prmsl_isobar_20251101_018.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 4,
+      "attribution": "<a href='https://registry.opendata.aws/noaa-gfs-bdp-pds/' target='_blank'>Processed from NOAA Global Forecast System (GFS) data accessed on 20251101</a>"
+    },
+    "isobar_019": {
+      "type": "vector",
+      "url": "pmtiles:///atmosphere-pressure-map/data/prmsl_isobar_20251101_019.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 4,
+      "attribution": "<a href='https://registry.opendata.aws/noaa-gfs-bdp-pds/' target='_blank'>Processed from NOAA Global Forecast System (GFS) data accessed on 20251101</a>"
+    },
+    "isobar_020": {
+      "type": "vector",
+      "url": "pmtiles:///atmosphere-pressure-map/data/prmsl_isobar_20251101_020.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 4,
+      "attribution": "<a href='https://registry.opendata.aws/noaa-gfs-bdp-pds/' target='_blank'>Processed from NOAA Global Forecast System (GFS) data accessed on 20251101</a>"
+    },
+    "isobar_021": {
+      "type": "vector",
+      "url": "pmtiles:///atmosphere-pressure-map/data/prmsl_isobar_20251101_021.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 4,
+      "attribution": "<a href='https://registry.opendata.aws/noaa-gfs-bdp-pds/' target='_blank'>Processed from NOAA Global Forecast System (GFS) data accessed on 20251101</a>"
+    },
+    "isobar_022": {
+      "type": "vector",
+      "url": "pmtiles:///atmosphere-pressure-map/data/prmsl_isobar_20251101_022.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 4,
+      "attribution": "<a href='https://registry.opendata.aws/noaa-gfs-bdp-pds/' target='_blank'>Processed from NOAA Global Forecast System (GFS) data accessed on 20251101</a>"
+    },
+    "isobar_023": {
+      "type": "vector",
+      "url": "pmtiles:///atmosphere-pressure-map/data/prmsl_isobar_20251101_023.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 4,
+      "attribution": "<a href='https://registry.opendata.aws/noaa-gfs-bdp-pds/' target='_blank'>Processed from NOAA Global Forecast System (GFS) data accessed on 20251101</a>"
+    },
+    "mono": {
+      "type": "raster",
+      "tiles": ["https://tile.mierune.co.jp/mierune_mono/{z}/{x}/{y}.png"],
+      "minzoom": 0,
+      "maxzoom": 18,
+      "attribution": "<a href=\"https://mierune.co.jp\">MIERUNE Inc.</a> <a href=\"https://www.openmaptiles.org/\" target=\"_blank\">&copy; OpenMapTiles</a> <a href=\"https://www.openstreetmap.org/copyright\" target=\"_blank\">&copy; OpenStreetMap contributors</a>"
+    }
+  },
+  "glyphs": "font/{fontstack}/{range}.pbf",
+  "layers": [
+    {
+      "id": "mono",
+      "type": "raster",
+      "source": "mono",
+      "minzoom": 0
+    },
+    {
+      "id": "pressure-relief_000",
+      "type": "color-relief",
+      "source": "prmsl_000",
+      "paint": {
+        "color-relief-color": [
+          "interpolate",
+          ["linear"],
+          ["elevation"],
+          980,
+          "#2166ac",
+          990,
+          "#4393c3",
+          1000,
+          "#92c5de",
+          1010,
+          "#d1e5f0",
+          1013,
+          "#f7f7f7",
+          1016,
+          "#fddbc7",
+          1020,
+          "#f4a582",
+          1030,
+          "#d6604d",
+          1040,
+          "#b2182b"
+        ],
+        "color-relief-opacity": 0.6
+      },
+      "minzoom": 0
+    },
+    {
+      "id": "pressure-relief_001",
+      "type": "color-relief",
+      "source": "prmsl_001",
+      "layout": {
+        "visibility": "none"
+      },
+      "paint": {
+        "color-relief-color": [
+          "interpolate",
+          ["linear"],
+          ["elevation"],
+          980,
+          "#2166ac",
+          990,
+          "#4393c3",
+          1000,
+          "#92c5de",
+          1010,
+          "#d1e5f0",
+          1013,
+          "#f7f7f7",
+          1016,
+          "#fddbc7",
+          1020,
+          "#f4a582",
+          1030,
+          "#d6604d",
+          1040,
+          "#b2182b"
+        ],
+        "color-relief-opacity": 0.6
+      },
+      "minzoom": 0
+    },
+    {
+      "id": "pressure-relief_002",
+      "type": "color-relief",
+      "source": "prmsl_002",
+      "layout": {
+        "visibility": "none"
+      },
+      "paint": {
+        "color-relief-color": [
+          "interpolate",
+          ["linear"],
+          ["elevation"],
+          980,
+          "#2166ac",
+          990,
+          "#4393c3",
+          1000,
+          "#92c5de",
+          1010,
+          "#d1e5f0",
+          1013,
+          "#f7f7f7",
+          1016,
+          "#fddbc7",
+          1020,
+          "#f4a582",
+          1030,
+          "#d6604d",
+          1040,
+          "#b2182b"
+        ],
+        "color-relief-opacity": 0.6
+      },
+      "minzoom": 0
+    },
+    {
+      "id": "pressure-relief_003",
+      "type": "color-relief",
+      "source": "prmsl_003",
+      "layout": {
+        "visibility": "none"
+      },
+      "paint": {
+        "color-relief-color": [
+          "interpolate",
+          ["linear"],
+          ["elevation"],
+          980,
+          "#2166ac",
+          990,
+          "#4393c3",
+          1000,
+          "#92c5de",
+          1010,
+          "#d1e5f0",
+          1013,
+          "#f7f7f7",
+          1016,
+          "#fddbc7",
+          1020,
+          "#f4a582",
+          1030,
+          "#d6604d",
+          1040,
+          "#b2182b"
+        ],
+        "color-relief-opacity": 0.6
+      },
+      "minzoom": 0
+    },
+    {
+      "id": "pressure-relief_004",
+      "type": "color-relief",
+      "source": "prmsl_004",
+      "layout": {
+        "visibility": "none"
+      },
+      "paint": {
+        "color-relief-color": [
+          "interpolate",
+          ["linear"],
+          ["elevation"],
+          980,
+          "#2166ac",
+          990,
+          "#4393c3",
+          1000,
+          "#92c5de",
+          1010,
+          "#d1e5f0",
+          1013,
+          "#f7f7f7",
+          1016,
+          "#fddbc7",
+          1020,
+          "#f4a582",
+          1030,
+          "#d6604d",
+          1040,
+          "#b2182b"
+        ],
+        "color-relief-opacity": 0.6
+      },
+      "minzoom": 0
+    },
+    {
+      "id": "pressure-relief_005",
+      "type": "color-relief",
+      "source": "prmsl_005",
+      "layout": {
+        "visibility": "none"
+      },
+      "paint": {
+        "color-relief-color": [
+          "interpolate",
+          ["linear"],
+          ["elevation"],
+          980,
+          "#2166ac",
+          990,
+          "#4393c3",
+          1000,
+          "#92c5de",
+          1010,
+          "#d1e5f0",
+          1013,
+          "#f7f7f7",
+          1016,
+          "#fddbc7",
+          1020,
+          "#f4a582",
+          1030,
+          "#d6604d",
+          1040,
+          "#b2182b"
+        ],
+        "color-relief-opacity": 0.6
+      },
+      "minzoom": 0
+    },
+    {
+      "id": "pressure-relief_006",
+      "type": "color-relief",
+      "source": "prmsl_006",
+      "paint": {
+        "color-relief-color": [
+          "interpolate",
+          ["linear"],
+          ["elevation"],
+          980,
+          "#2166ac",
+          990,
+          "#4393c3",
+          1000,
+          "#92c5de",
+          1010,
+          "#d1e5f0",
+          1013,
+          "#f7f7f7",
+          1016,
+          "#fddbc7",
+          1020,
+          "#f4a582",
+          1030,
+          "#d6604d",
+          1040,
+          "#b2182b"
+        ],
+        "color-relief-opacity": 0.6
+      },
+      "minzoom": 0,
+      "layout": {
+        "visibility": "none"
+      }
+    },
+    {
+      "id": "pressure-relief_007",
+      "type": "color-relief",
+      "source": "prmsl_007",
+      "paint": {
+        "color-relief-color": [
+          "interpolate",
+          ["linear"],
+          ["elevation"],
+          980,
+          "#2166ac",
+          990,
+          "#4393c3",
+          1000,
+          "#92c5de",
+          1010,
+          "#d1e5f0",
+          1013,
+          "#f7f7f7",
+          1016,
+          "#fddbc7",
+          1020,
+          "#f4a582",
+          1030,
+          "#d6604d",
+          1040,
+          "#b2182b"
+        ],
+        "color-relief-opacity": 0.6
+      },
+      "minzoom": 0,
+      "layout": {
+        "visibility": "none"
+      }
+    },
+    {
+      "id": "pressure-relief_008",
+      "type": "color-relief",
+      "source": "prmsl_008",
+      "paint": {
+        "color-relief-color": [
+          "interpolate",
+          ["linear"],
+          ["elevation"],
+          980,
+          "#2166ac",
+          990,
+          "#4393c3",
+          1000,
+          "#92c5de",
+          1010,
+          "#d1e5f0",
+          1013,
+          "#f7f7f7",
+          1016,
+          "#fddbc7",
+          1020,
+          "#f4a582",
+          1030,
+          "#d6604d",
+          1040,
+          "#b2182b"
+        ],
+        "color-relief-opacity": 0.6
+      },
+      "minzoom": 0,
+      "layout": {
+        "visibility": "none"
+      }
+    },
+    {
+      "id": "pressure-relief_009",
+      "type": "color-relief",
+      "source": "prmsl_009",
+      "paint": {
+        "color-relief-color": [
+          "interpolate",
+          ["linear"],
+          ["elevation"],
+          980,
+          "#2166ac",
+          990,
+          "#4393c3",
+          1000,
+          "#92c5de",
+          1010,
+          "#d1e5f0",
+          1013,
+          "#f7f7f7",
+          1016,
+          "#fddbc7",
+          1020,
+          "#f4a582",
+          1030,
+          "#d6604d",
+          1040,
+          "#b2182b"
+        ],
+        "color-relief-opacity": 0.6
+      },
+      "minzoom": 0,
+      "layout": {
+        "visibility": "none"
+      }
+    },
+    {
+      "id": "pressure-relief_010",
+      "type": "color-relief",
+      "source": "prmsl_010",
+      "paint": {
+        "color-relief-color": [
+          "interpolate",
+          ["linear"],
+          ["elevation"],
+          980,
+          "#2166ac",
+          990,
+          "#4393c3",
+          1000,
+          "#92c5de",
+          1010,
+          "#d1e5f0",
+          1013,
+          "#f7f7f7",
+          1016,
+          "#fddbc7",
+          1020,
+          "#f4a582",
+          1030,
+          "#d6604d",
+          1040,
+          "#b2182b"
+        ],
+        "color-relief-opacity": 0.6
+      },
+      "minzoom": 0,
+      "layout": {
+        "visibility": "none"
+      }
+    },
+    {
+      "id": "pressure-relief_011",
+      "type": "color-relief",
+      "source": "prmsl_011",
+      "paint": {
+        "color-relief-color": [
+          "interpolate",
+          ["linear"],
+          ["elevation"],
+          980,
+          "#2166ac",
+          990,
+          "#4393c3",
+          1000,
+          "#92c5de",
+          1010,
+          "#d1e5f0",
+          1013,
+          "#f7f7f7",
+          1016,
+          "#fddbc7",
+          1020,
+          "#f4a582",
+          1030,
+          "#d6604d",
+          1040,
+          "#b2182b"
+        ],
+        "color-relief-opacity": 0.6
+      },
+      "minzoom": 0,
+      "layout": {
+        "visibility": "none"
+      }
+    },
+    {
+      "id": "pressure-relief_012",
+      "type": "color-relief",
+      "source": "prmsl_012",
+      "paint": {
+        "color-relief-color": [
+          "interpolate",
+          ["linear"],
+          ["elevation"],
+          980,
+          "#2166ac",
+          990,
+          "#4393c3",
+          1000,
+          "#92c5de",
+          1010,
+          "#d1e5f0",
+          1013,
+          "#f7f7f7",
+          1016,
+          "#fddbc7",
+          1020,
+          "#f4a582",
+          1030,
+          "#d6604d",
+          1040,
+          "#b2182b"
+        ],
+        "color-relief-opacity": 0.6
+      },
+      "minzoom": 0,
+      "layout": {
+        "visibility": "none"
+      }
+    },
+    {
+      "id": "pressure-relief_013",
+      "type": "color-relief",
+      "source": "prmsl_013",
+      "paint": {
+        "color-relief-color": [
+          "interpolate",
+          ["linear"],
+          ["elevation"],
+          980,
+          "#2166ac",
+          990,
+          "#4393c3",
+          1000,
+          "#92c5de",
+          1010,
+          "#d1e5f0",
+          1013,
+          "#f7f7f7",
+          1016,
+          "#fddbc7",
+          1020,
+          "#f4a582",
+          1030,
+          "#d6604d",
+          1040,
+          "#b2182b"
+        ],
+        "color-relief-opacity": 0.6
+      },
+      "minzoom": 0,
+      "layout": {
+        "visibility": "none"
+      }
+    },
+    {
+      "id": "pressure-relief_014",
+      "type": "color-relief",
+      "source": "prmsl_014",
+      "paint": {
+        "color-relief-color": [
+          "interpolate",
+          ["linear"],
+          ["elevation"],
+          980,
+          "#2166ac",
+          990,
+          "#4393c3",
+          1000,
+          "#92c5de",
+          1010,
+          "#d1e5f0",
+          1013,
+          "#f7f7f7",
+          1016,
+          "#fddbc7",
+          1020,
+          "#f4a582",
+          1030,
+          "#d6604d",
+          1040,
+          "#b2182b"
+        ],
+        "color-relief-opacity": 0.6
+      },
+      "minzoom": 0,
+      "layout": {
+        "visibility": "none"
+      }
+    },
+    {
+      "id": "pressure-relief_015",
+      "type": "color-relief",
+      "source": "prmsl_015",
+      "paint": {
+        "color-relief-color": [
+          "interpolate",
+          ["linear"],
+          ["elevation"],
+          980,
+          "#2166ac",
+          990,
+          "#4393c3",
+          1000,
+          "#92c5de",
+          1010,
+          "#d1e5f0",
+          1013,
+          "#f7f7f7",
+          1016,
+          "#fddbc7",
+          1020,
+          "#f4a582",
+          1030,
+          "#d6604d",
+          1040,
+          "#b2182b"
+        ],
+        "color-relief-opacity": 0.6
+      },
+      "minzoom": 0,
+      "layout": {
+        "visibility": "none"
+      }
+    },
+    {
+      "id": "pressure-relief_016",
+      "type": "color-relief",
+      "source": "prmsl_016",
+      "paint": {
+        "color-relief-color": [
+          "interpolate",
+          ["linear"],
+          ["elevation"],
+          980,
+          "#2166ac",
+          990,
+          "#4393c3",
+          1000,
+          "#92c5de",
+          1010,
+          "#d1e5f0",
+          1013,
+          "#f7f7f7",
+          1016,
+          "#fddbc7",
+          1020,
+          "#f4a582",
+          1030,
+          "#d6604d",
+          1040,
+          "#b2182b"
+        ],
+        "color-relief-opacity": 0.6
+      },
+      "minzoom": 0,
+      "layout": {
+        "visibility": "none"
+      }
+    },
+    {
+      "id": "pressure-relief_017",
+      "type": "color-relief",
+      "source": "prmsl_017",
+      "paint": {
+        "color-relief-color": [
+          "interpolate",
+          ["linear"],
+          ["elevation"],
+          980,
+          "#2166ac",
+          990,
+          "#4393c3",
+          1000,
+          "#92c5de",
+          1010,
+          "#d1e5f0",
+          1013,
+          "#f7f7f7",
+          1016,
+          "#fddbc7",
+          1020,
+          "#f4a582",
+          1030,
+          "#d6604d",
+          1040,
+          "#b2182b"
+        ],
+        "color-relief-opacity": 0.6
+      },
+      "minzoom": 0,
+      "layout": {
+        "visibility": "none"
+      }
+    },
+    {
+      "id": "pressure-relief_018",
+      "type": "color-relief",
+      "source": "prmsl_018",
+      "paint": {
+        "color-relief-color": [
+          "interpolate",
+          ["linear"],
+          ["elevation"],
+          980,
+          "#2166ac",
+          990,
+          "#4393c3",
+          1000,
+          "#92c5de",
+          1010,
+          "#d1e5f0",
+          1013,
+          "#f7f7f7",
+          1016,
+          "#fddbc7",
+          1020,
+          "#f4a582",
+          1030,
+          "#d6604d",
+          1040,
+          "#b2182b"
+        ],
+        "color-relief-opacity": 0.6
+      },
+      "minzoom": 0,
+      "layout": {
+        "visibility": "none"
+      }
+    },
+    {
+      "id": "pressure-relief_019",
+      "type": "color-relief",
+      "source": "prmsl_019",
+      "paint": {
+        "color-relief-color": [
+          "interpolate",
+          ["linear"],
+          ["elevation"],
+          980,
+          "#2166ac",
+          990,
+          "#4393c3",
+          1000,
+          "#92c5de",
+          1010,
+          "#d1e5f0",
+          1013,
+          "#f7f7f7",
+          1016,
+          "#fddbc7",
+          1020,
+          "#f4a582",
+          1030,
+          "#d6604d",
+          1040,
+          "#b2182b"
+        ],
+        "color-relief-opacity": 0.6
+      },
+      "minzoom": 0,
+      "layout": {
+        "visibility": "none"
+      }
+    },
+    {
+      "id": "pressure-relief_020",
+      "type": "color-relief",
+      "source": "prmsl_020",
+      "paint": {
+        "color-relief-color": [
+          "interpolate",
+          ["linear"],
+          ["elevation"],
+          980,
+          "#2166ac",
+          990,
+          "#4393c3",
+          1000,
+          "#92c5de",
+          1010,
+          "#d1e5f0",
+          1013,
+          "#f7f7f7",
+          1016,
+          "#fddbc7",
+          1020,
+          "#f4a582",
+          1030,
+          "#d6604d",
+          1040,
+          "#b2182b"
+        ],
+        "color-relief-opacity": 0.6
+      },
+      "minzoom": 0,
+      "layout": {
+        "visibility": "none"
+      }
+    },
+    {
+      "id": "pressure-relief_021",
+      "type": "color-relief",
+      "source": "prmsl_021",
+      "paint": {
+        "color-relief-color": [
+          "interpolate",
+          ["linear"],
+          ["elevation"],
+          980,
+          "#2166ac",
+          990,
+          "#4393c3",
+          1000,
+          "#92c5de",
+          1010,
+          "#d1e5f0",
+          1013,
+          "#f7f7f7",
+          1016,
+          "#fddbc7",
+          1020,
+          "#f4a582",
+          1030,
+          "#d6604d",
+          1040,
+          "#b2182b"
+        ],
+        "color-relief-opacity": 0.6
+      },
+      "minzoom": 0,
+      "layout": {
+        "visibility": "none"
+      }
+    },
+    {
+      "id": "pressure-relief_022",
+      "type": "color-relief",
+      "source": "prmsl_022",
+      "paint": {
+        "color-relief-color": [
+          "interpolate",
+          ["linear"],
+          ["elevation"],
+          980,
+          "#2166ac",
+          990,
+          "#4393c3",
+          1000,
+          "#92c5de",
+          1010,
+          "#d1e5f0",
+          1013,
+          "#f7f7f7",
+          1016,
+          "#fddbc7",
+          1020,
+          "#f4a582",
+          1030,
+          "#d6604d",
+          1040,
+          "#b2182b"
+        ],
+        "color-relief-opacity": 0.6
+      },
+      "minzoom": 0,
+      "layout": {
+        "visibility": "none"
+      }
+    },
+    {
+      "id": "pressure-relief_023",
+      "type": "color-relief",
+      "source": "prmsl_023",
+      "paint": {
+        "color-relief-color": [
+          "interpolate",
+          ["linear"],
+          ["elevation"],
+          980,
+          "#2166ac",
+          990,
+          "#4393c3",
+          1000,
+          "#92c5de",
+          1010,
+          "#d1e5f0",
+          1013,
+          "#f7f7f7",
+          1016,
+          "#fddbc7",
+          1020,
+          "#f4a582",
+          1030,
+          "#d6604d",
+          1040,
+          "#b2182b"
+        ],
+        "color-relief-opacity": 0.6
+      },
+      "minzoom": 0,
+      "layout": {
+        "visibility": "none"
+      }
+    },
+    {
+      "id": "isobar_000",
+      "type": "line",
+      "source": "isobar_000",
+      "source-layer": "isobar",
+      "paint": {
+        "line-color": "#333333",
+        "line-width": ["case", ["==", ["%", ["get", "prmsl"], 20], 0], 2.5, 1],
+        "line-opacity": 0.6
+      },
+      "minzoom": 0
+    },
+    {
+      "id": "isobar_001",
+      "type": "line",
+      "source": "isobar_001",
+      "source-layer": "isobar",
+      "paint": {
+        "line-color": "#333333",
+        "line-width": ["case", ["==", ["%", ["get", "prmsl"], 20], 0], 2.5, 1],
+        "line-opacity": 0.6
+      },
+      "minzoom": 0,
+      "layout": {
+        "visibility": "none"
+      }
+    },
+    {
+      "id": "isobar_002",
+      "type": "line",
+      "source": "isobar_002",
+      "source-layer": "isobar",
+      "paint": {
+        "line-color": "#333333",
+        "line-width": ["case", ["==", ["%", ["get", "prmsl"], 20], 0], 2.5, 1],
+        "line-opacity": 0.6
+      },
+      "minzoom": 0,
+      "layout": {
+        "visibility": "none"
+      }
+    },
+    {
+      "id": "isobar_003",
+      "type": "line",
+      "source": "isobar_003",
+      "source-layer": "isobar",
+      "paint": {
+        "line-color": "#333333",
+        "line-width": ["case", ["==", ["%", ["get", "prmsl"], 20], 0], 2.5, 1],
+        "line-opacity": 0.6
+      },
+      "minzoom": 0,
+      "layout": {
+        "visibility": "none"
+      }
+    },
+    {
+      "id": "isobar_004",
+      "type": "line",
+      "source": "isobar_004",
+      "source-layer": "isobar",
+      "paint": {
+        "line-color": "#333333",
+        "line-width": ["case", ["==", ["%", ["get", "prmsl"], 20], 0], 2.5, 1],
+        "line-opacity": 0.6
+      },
+      "minzoom": 0,
+      "layout": {
+        "visibility": "none"
+      }
+    },
+    {
+      "id": "isobar_005",
+      "type": "line",
+      "source": "isobar_005",
+      "source-layer": "isobar",
+      "paint": {
+        "line-color": "#333333",
+        "line-width": ["case", ["==", ["%", ["get", "prmsl"], 20], 0], 2.5, 1],
+        "line-opacity": 0.6
+      },
+      "minzoom": 0,
+      "layout": {
+        "visibility": "none"
+      }
+    },
+    {
+      "id": "isobar_006",
+      "type": "line",
+      "source": "isobar_006",
+      "source-layer": "isobar",
+      "paint": {
+        "line-color": "#333333",
+        "line-width": ["case", ["==", ["%", ["get", "prmsl"], 20], 0], 2.5, 1],
+        "line-opacity": 0.6
+      },
+      "minzoom": 0,
+      "layout": {
+        "visibility": "none"
+      }
+    },
+    {
+      "id": "isobar_007",
+      "type": "line",
+      "source": "isobar_007",
+      "source-layer": "isobar",
+      "paint": {
+        "line-color": "#333333",
+        "line-width": ["case", ["==", ["%", ["get", "prmsl"], 20], 0], 2.5, 1],
+        "line-opacity": 0.6
+      },
+      "minzoom": 0,
+      "layout": {
+        "visibility": "none"
+      }
+    },
+    {
+      "id": "isobar_008",
+      "type": "line",
+      "source": "isobar_008",
+      "source-layer": "isobar",
+      "paint": {
+        "line-color": "#333333",
+        "line-width": ["case", ["==", ["%", ["get", "prmsl"], 20], 0], 2.5, 1],
+        "line-opacity": 0.6
+      },
+      "minzoom": 0,
+      "layout": {
+        "visibility": "none"
+      }
+    },
+    {
+      "id": "isobar_009",
+      "type": "line",
+      "source": "isobar_009",
+      "source-layer": "isobar",
+      "paint": {
+        "line-color": "#333333",
+        "line-width": ["case", ["==", ["%", ["get", "prmsl"], 20], 0], 2.5, 1],
+        "line-opacity": 0.6
+      },
+      "minzoom": 0,
+      "layout": {
+        "visibility": "none"
+      }
+    },
+    {
+      "id": "isobar_010",
+      "type": "line",
+      "source": "isobar_010",
+      "source-layer": "isobar",
+      "paint": {
+        "line-color": "#333333",
+        "line-width": ["case", ["==", ["%", ["get", "prmsl"], 20], 0], 2.5, 1],
+        "line-opacity": 0.6
+      },
+      "minzoom": 0,
+      "layout": {
+        "visibility": "none"
+      }
+    },
+    {
+      "id": "isobar_011",
+      "type": "line",
+      "source": "isobar_011",
+      "source-layer": "isobar",
+      "paint": {
+        "line-color": "#333333",
+        "line-width": ["case", ["==", ["%", ["get", "prmsl"], 20], 0], 2.5, 1],
+        "line-opacity": 0.6
+      },
+      "minzoom": 0,
+      "layout": {
+        "visibility": "none"
+      }
+    },
+    {
+      "id": "isobar_012",
+      "type": "line",
+      "source": "isobar_012",
+      "source-layer": "isobar",
+      "paint": {
+        "line-color": "#333333",
+        "line-width": ["case", ["==", ["%", ["get", "prmsl"], 20], 0], 2.5, 1],
+        "line-opacity": 0.6
+      },
+      "minzoom": 0,
+      "layout": {
+        "visibility": "none"
+      }
+    },
+    {
+      "id": "isobar_013",
+      "type": "line",
+      "source": "isobar_013",
+      "source-layer": "isobar",
+      "paint": {
+        "line-color": "#333333",
+        "line-width": ["case", ["==", ["%", ["get", "prmsl"], 20], 0], 2.5, 1],
+        "line-opacity": 0.6
+      },
+      "minzoom": 0,
+      "layout": {
+        "visibility": "none"
+      }
+    },
+    {
+      "id": "isobar_014",
+      "type": "line",
+      "source": "isobar_014",
+      "source-layer": "isobar",
+      "paint": {
+        "line-color": "#333333",
+        "line-width": ["case", ["==", ["%", ["get", "prmsl"], 20], 0], 2.5, 1],
+        "line-opacity": 0.6
+      },
+      "minzoom": 0,
+      "layout": {
+        "visibility": "none"
+      }
+    },
+    {
+      "id": "isobar_015",
+      "type": "line",
+      "source": "isobar_015",
+      "source-layer": "isobar",
+      "paint": {
+        "line-color": "#333333",
+        "line-width": ["case", ["==", ["%", ["get", "prmsl"], 20], 0], 2.5, 1],
+        "line-opacity": 0.6
+      },
+      "minzoom": 0,
+      "layout": {
+        "visibility": "none"
+      }
+    },
+    {
+      "id": "isobar_016",
+      "type": "line",
+      "source": "isobar_016",
+      "source-layer": "isobar",
+      "paint": {
+        "line-color": "#333333",
+        "line-width": ["case", ["==", ["%", ["get", "prmsl"], 20], 0], 2.5, 1],
+        "line-opacity": 0.6
+      },
+      "minzoom": 0,
+      "layout": {
+        "visibility": "none"
+      }
+    },
+    {
+      "id": "isobar_017",
+      "type": "line",
+      "source": "isobar_017",
+      "source-layer": "isobar",
+      "paint": {
+        "line-color": "#333333",
+        "line-width": ["case", ["==", ["%", ["get", "prmsl"], 20], 0], 2.5, 1],
+        "line-opacity": 0.6
+      },
+      "minzoom": 0,
+      "layout": {
+        "visibility": "none"
+      }
+    },
+    {
+      "id": "isobar_018",
+      "type": "line",
+      "source": "isobar_018",
+      "source-layer": "isobar",
+      "paint": {
+        "line-color": "#333333",
+        "line-width": ["case", ["==", ["%", ["get", "prmsl"], 20], 0], 2.5, 1],
+        "line-opacity": 0.6
+      },
+      "minzoom": 0,
+      "layout": {
+        "visibility": "none"
+      }
+    },
+    {
+      "id": "isobar_019",
+      "type": "line",
+      "source": "isobar_019",
+      "source-layer": "isobar",
+      "paint": {
+        "line-color": "#333333",
+        "line-width": ["case", ["==", ["%", ["get", "prmsl"], 20], 0], 2.5, 1],
+        "line-opacity": 0.6
+      },
+      "minzoom": 0,
+      "layout": {
+        "visibility": "none"
+      }
+    },
+    {
+      "id": "isobar_020",
+      "type": "line",
+      "source": "isobar_020",
+      "source-layer": "isobar",
+      "paint": {
+        "line-color": "#333333",
+        "line-width": ["case", ["==", ["%", ["get", "prmsl"], 20], 0], 2.5, 1],
+        "line-opacity": 0.6
+      },
+      "minzoom": 0,
+      "layout": {
+        "visibility": "none"
+      }
+    },
+    {
+      "id": "isobar_021",
+      "type": "line",
+      "source": "isobar_021",
+      "source-layer": "isobar",
+      "paint": {
+        "line-color": "#333333",
+        "line-width": ["case", ["==", ["%", ["get", "prmsl"], 20], 0], 2.5, 1],
+        "line-opacity": 0.6
+      },
+      "minzoom": 0,
+      "layout": {
+        "visibility": "none"
+      }
+    },
+    {
+      "id": "isobar_022",
+      "type": "line",
+      "source": "isobar_022",
+      "source-layer": "isobar",
+      "paint": {
+        "line-color": "#333333",
+        "line-width": ["case", ["==", ["%", ["get", "prmsl"], 20], 0], 2.5, 1],
+        "line-opacity": 0.6
+      },
+      "minzoom": 0,
+      "layout": {
+        "visibility": "none"
+      }
+    },
+    {
+      "id": "isobar_023",
+      "type": "line",
+      "source": "isobar_023",
+      "source-layer": "isobar",
+      "paint": {
+        "line-color": "#333333",
+        "line-width": ["case", ["==", ["%", ["get", "prmsl"], 20], 0], 2.5, 1],
+        "line-opacity": 0.6
+      },
+      "minzoom": 0,
+      "layout": {
+        "visibility": "none"
+      }
+    },
+    {
+      "id": "isobar-label_000",
+      "type": "symbol",
+      "source": "isobar_000",
+      "source-layer": "isobar",
+      "filter": ["==", ["%", ["get", "prmsl"], 20], 0],
+      "layout": {
+        "text-field": ["get", "prmsl"],
+        "text-font": ["Noto Sans Regular"],
+        "text-size": 12,
+        "symbol-placement": "line",
+        "text-rotation-alignment": "map",
+        "text-pitch-alignment": "viewport"
+      },
+      "paint": {
+        "text-color": "#333333",
+        "text-halo-color": "#ffffff",
+        "text-halo-width": 1
+      },
+      "minzoom": 2
+    },
+    {
+      "id": "isobar-label_001",
+      "type": "symbol",
+      "source": "isobar_001",
+      "source-layer": "isobar",
+      "filter": ["==", ["%", ["get", "prmsl"], 20], 0],
+      "layout": {
+        "text-field": ["get", "prmsl"],
+        "text-font": ["Noto Sans Regular"],
+        "text-size": 12,
+        "symbol-placement": "line",
+        "text-rotation-alignment": "map",
+        "text-pitch-alignment": "viewport",
+        "visibility": "none"
+      },
+      "paint": {
+        "text-color": "#333333",
+        "text-halo-color": "#ffffff",
+        "text-halo-width": 1
+      },
+      "minzoom": 2
+    },
+    {
+      "id": "isobar-label_002",
+      "type": "symbol",
+      "source": "isobar_002",
+      "source-layer": "isobar",
+      "filter": ["==", ["%", ["get", "prmsl"], 20], 0],
+      "layout": {
+        "text-field": ["get", "prmsl"],
+        "text-font": ["Noto Sans Regular"],
+        "text-size": 12,
+        "symbol-placement": "line",
+        "text-rotation-alignment": "map",
+        "text-pitch-alignment": "viewport",
+        "visibility": "none"
+      },
+      "paint": {
+        "text-color": "#333333",
+        "text-halo-color": "#ffffff",
+        "text-halo-width": 1
+      },
+      "minzoom": 2
+    },
+    {
+      "id": "isobar-label_003",
+      "type": "symbol",
+      "source": "isobar_003",
+      "source-layer": "isobar",
+      "filter": ["==", ["%", ["get", "prmsl"], 20], 0],
+      "layout": {
+        "text-field": ["get", "prmsl"],
+        "text-font": ["Noto Sans Regular"],
+        "text-size": 12,
+        "symbol-placement": "line",
+        "text-rotation-alignment": "map",
+        "text-pitch-alignment": "viewport",
+        "visibility": "none"
+      },
+      "paint": {
+        "text-color": "#333333",
+        "text-halo-color": "#ffffff",
+        "text-halo-width": 1
+      },
+      "minzoom": 2
+    },
+    {
+      "id": "isobar-label_004",
+      "type": "symbol",
+      "source": "isobar_004",
+      "source-layer": "isobar",
+      "filter": ["==", ["%", ["get", "prmsl"], 20], 0],
+      "layout": {
+        "text-field": ["get", "prmsl"],
+        "text-font": ["Noto Sans Regular"],
+        "text-size": 12,
+        "symbol-placement": "line",
+        "text-rotation-alignment": "map",
+        "text-pitch-alignment": "viewport",
+        "visibility": "none"
+      },
+      "paint": {
+        "text-color": "#333333",
+        "text-halo-color": "#ffffff",
+        "text-halo-width": 1
+      },
+      "minzoom": 2
+    },
+    {
+      "id": "isobar-label_005",
+      "type": "symbol",
+      "source": "isobar_005",
+      "source-layer": "isobar",
+      "filter": ["==", ["%", ["get", "prmsl"], 20], 0],
+      "layout": {
+        "text-field": ["get", "prmsl"],
+        "text-font": ["Noto Sans Regular"],
+        "text-size": 12,
+        "symbol-placement": "line",
+        "text-rotation-alignment": "map",
+        "text-pitch-alignment": "viewport",
+        "visibility": "none"
+      },
+      "paint": {
+        "text-color": "#333333",
+        "text-halo-color": "#ffffff",
+        "text-halo-width": 1
+      },
+      "minzoom": 2
+    },
+    {
+      "id": "isobar-label_006",
+      "type": "symbol",
+      "source": "isobar_006",
+      "source-layer": "isobar",
+      "filter": ["==", ["%", ["get", "prmsl"], 20], 0],
+      "layout": {
+        "text-field": ["get", "prmsl"],
+        "text-font": ["Noto Sans Regular"],
+        "text-size": 12,
+        "symbol-placement": "line",
+        "text-rotation-alignment": "map",
+        "text-pitch-alignment": "viewport",
+        "visibility": "none"
+      },
+      "paint": {
+        "text-color": "#333333",
+        "text-halo-color": "#ffffff",
+        "text-halo-width": 1
+      },
+      "minzoom": 2
+    },
+    {
+      "id": "isobar-label_007",
+      "type": "symbol",
+      "source": "isobar_007",
+      "source-layer": "isobar",
+      "filter": ["==", ["%", ["get", "prmsl"], 20], 0],
+      "layout": {
+        "text-field": ["get", "prmsl"],
+        "text-font": ["Noto Sans Regular"],
+        "text-size": 12,
+        "symbol-placement": "line",
+        "text-rotation-alignment": "map",
+        "text-pitch-alignment": "viewport",
+        "visibility": "none"
+      },
+      "paint": {
+        "text-color": "#333333",
+        "text-halo-color": "#ffffff",
+        "text-halo-width": 1
+      },
+      "minzoom": 2
+    },
+    {
+      "id": "isobar-label_008",
+      "type": "symbol",
+      "source": "isobar_008",
+      "source-layer": "isobar",
+      "filter": ["==", ["%", ["get", "prmsl"], 20], 0],
+      "layout": {
+        "text-field": ["get", "prmsl"],
+        "text-font": ["Noto Sans Regular"],
+        "text-size": 12,
+        "symbol-placement": "line",
+        "text-rotation-alignment": "map",
+        "text-pitch-alignment": "viewport",
+        "visibility": "none"
+      },
+      "paint": {
+        "text-color": "#333333",
+        "text-halo-color": "#ffffff",
+        "text-halo-width": 1
+      },
+      "minzoom": 2
+    },
+    {
+      "id": "isobar-label_009",
+      "type": "symbol",
+      "source": "isobar_009",
+      "source-layer": "isobar",
+      "filter": ["==", ["%", ["get", "prmsl"], 20], 0],
+      "layout": {
+        "text-field": ["get", "prmsl"],
+        "text-font": ["Noto Sans Regular"],
+        "text-size": 12,
+        "symbol-placement": "line",
+        "text-rotation-alignment": "map",
+        "text-pitch-alignment": "viewport",
+        "visibility": "none"
+      },
+      "paint": {
+        "text-color": "#333333",
+        "text-halo-color": "#ffffff",
+        "text-halo-width": 1
+      },
+      "minzoom": 2
+    },
+    {
+      "id": "isobar-label_010",
+      "type": "symbol",
+      "source": "isobar_010",
+      "source-layer": "isobar",
+      "filter": ["==", ["%", ["get", "prmsl"], 20], 0],
+      "layout": {
+        "text-field": ["get", "prmsl"],
+        "text-font": ["Noto Sans Regular"],
+        "text-size": 12,
+        "symbol-placement": "line",
+        "text-rotation-alignment": "map",
+        "text-pitch-alignment": "viewport",
+        "visibility": "none"
+      },
+      "paint": {
+        "text-color": "#333333",
+        "text-halo-color": "#ffffff",
+        "text-halo-width": 1
+      },
+      "minzoom": 2
+    },
+    {
+      "id": "isobar-label_011",
+      "type": "symbol",
+      "source": "isobar_011",
+      "source-layer": "isobar",
+      "filter": ["==", ["%", ["get", "prmsl"], 20], 0],
+      "layout": {
+        "text-field": ["get", "prmsl"],
+        "text-font": ["Noto Sans Regular"],
+        "text-size": 12,
+        "symbol-placement": "line",
+        "text-rotation-alignment": "map",
+        "text-pitch-alignment": "viewport",
+        "visibility": "none"
+      },
+      "paint": {
+        "text-color": "#333333",
+        "text-halo-color": "#ffffff",
+        "text-halo-width": 1
+      },
+      "minzoom": 2
+    },
+    {
+      "id": "isobar-label_012",
+      "type": "symbol",
+      "source": "isobar_012",
+      "source-layer": "isobar",
+      "filter": ["==", ["%", ["get", "prmsl"], 20], 0],
+      "layout": {
+        "text-field": ["get", "prmsl"],
+        "text-font": ["Noto Sans Regular"],
+        "text-size": 12,
+        "symbol-placement": "line",
+        "text-rotation-alignment": "map",
+        "text-pitch-alignment": "viewport",
+        "visibility": "none"
+      },
+      "paint": {
+        "text-color": "#333333",
+        "text-halo-color": "#ffffff",
+        "text-halo-width": 1
+      },
+      "minzoom": 2
+    },
+    {
+      "id": "isobar-label_013",
+      "type": "symbol",
+      "source": "isobar_013",
+      "source-layer": "isobar",
+      "filter": ["==", ["%", ["get", "prmsl"], 20], 0],
+      "layout": {
+        "text-field": ["get", "prmsl"],
+        "text-font": ["Noto Sans Regular"],
+        "text-size": 12,
+        "symbol-placement": "line",
+        "text-rotation-alignment": "map",
+        "text-pitch-alignment": "viewport",
+        "visibility": "none"
+      },
+      "paint": {
+        "text-color": "#333333",
+        "text-halo-color": "#ffffff",
+        "text-halo-width": 1
+      },
+      "minzoom": 2
+    },
+    {
+      "id": "isobar-label_014",
+      "type": "symbol",
+      "source": "isobar_014",
+      "source-layer": "isobar",
+      "filter": ["==", ["%", ["get", "prmsl"], 20], 0],
+      "layout": {
+        "text-field": ["get", "prmsl"],
+        "text-font": ["Noto Sans Regular"],
+        "text-size": 12,
+        "symbol-placement": "line",
+        "text-rotation-alignment": "map",
+        "text-pitch-alignment": "viewport",
+        "visibility": "none"
+      },
+      "paint": {
+        "text-color": "#333333",
+        "text-halo-color": "#ffffff",
+        "text-halo-width": 1
+      },
+      "minzoom": 2
+    },
+    {
+      "id": "isobar-label_015",
+      "type": "symbol",
+      "source": "isobar_015",
+      "source-layer": "isobar",
+      "filter": ["==", ["%", ["get", "prmsl"], 20], 0],
+      "layout": {
+        "text-field": ["get", "prmsl"],
+        "text-font": ["Noto Sans Regular"],
+        "text-size": 12,
+        "symbol-placement": "line",
+        "text-rotation-alignment": "map",
+        "text-pitch-alignment": "viewport",
+        "visibility": "none"
+      },
+      "paint": {
+        "text-color": "#333333",
+        "text-halo-color": "#ffffff",
+        "text-halo-width": 1
+      },
+      "minzoom": 2
+    },
+    {
+      "id": "isobar-label_016",
+      "type": "symbol",
+      "source": "isobar_016",
+      "source-layer": "isobar",
+      "filter": ["==", ["%", ["get", "prmsl"], 20], 0],
+      "layout": {
+        "text-field": ["get", "prmsl"],
+        "text-font": ["Noto Sans Regular"],
+        "text-size": 12,
+        "symbol-placement": "line",
+        "text-rotation-alignment": "map",
+        "text-pitch-alignment": "viewport",
+        "visibility": "none"
+      },
+      "paint": {
+        "text-color": "#333333",
+        "text-halo-color": "#ffffff",
+        "text-halo-width": 1
+      },
+      "minzoom": 2
+    },
+    {
+      "id": "isobar-label_017",
+      "type": "symbol",
+      "source": "isobar_017",
+      "source-layer": "isobar",
+      "filter": ["==", ["%", ["get", "prmsl"], 20], 0],
+      "layout": {
+        "text-field": ["get", "prmsl"],
+        "text-font": ["Noto Sans Regular"],
+        "text-size": 12,
+        "symbol-placement": "line",
+        "text-rotation-alignment": "map",
+        "text-pitch-alignment": "viewport",
+        "visibility": "none"
+      },
+      "paint": {
+        "text-color": "#333333",
+        "text-halo-color": "#ffffff",
+        "text-halo-width": 1
+      },
+      "minzoom": 2
+    },
+    {
+      "id": "isobar-label_018",
+      "type": "symbol",
+      "source": "isobar_018",
+      "source-layer": "isobar",
+      "filter": ["==", ["%", ["get", "prmsl"], 20], 0],
+      "layout": {
+        "text-field": ["get", "prmsl"],
+        "text-font": ["Noto Sans Regular"],
+        "text-size": 12,
+        "symbol-placement": "line",
+        "text-rotation-alignment": "map",
+        "text-pitch-alignment": "viewport",
+        "visibility": "none"
+      },
+      "paint": {
+        "text-color": "#333333",
+        "text-halo-color": "#ffffff",
+        "text-halo-width": 1
+      },
+      "minzoom": 2
+    },
+    {
+      "id": "isobar-label_019",
+      "type": "symbol",
+      "source": "isobar_019",
+      "source-layer": "isobar",
+      "filter": ["==", ["%", ["get", "prmsl"], 20], 0],
+      "layout": {
+        "text-field": ["get", "prmsl"],
+        "text-font": ["Noto Sans Regular"],
+        "text-size": 12,
+        "symbol-placement": "line",
+        "text-rotation-alignment": "map",
+        "text-pitch-alignment": "viewport",
+        "visibility": "none"
+      },
+      "paint": {
+        "text-color": "#333333",
+        "text-halo-color": "#ffffff",
+        "text-halo-width": 1
+      },
+      "minzoom": 2
+    },
+    {
+      "id": "isobar-label_020",
+      "type": "symbol",
+      "source": "isobar_020",
+      "source-layer": "isobar",
+      "filter": ["==", ["%", ["get", "prmsl"], 20], 0],
+      "layout": {
+        "text-field": ["get", "prmsl"],
+        "text-font": ["Noto Sans Regular"],
+        "text-size": 12,
+        "symbol-placement": "line",
+        "text-rotation-alignment": "map",
+        "text-pitch-alignment": "viewport",
+        "visibility": "none"
+      },
+      "paint": {
+        "text-color": "#333333",
+        "text-halo-color": "#ffffff",
+        "text-halo-width": 1
+      },
+      "minzoom": 2
+    },
+    {
+      "id": "isobar-label_021",
+      "type": "symbol",
+      "source": "isobar_021",
+      "source-layer": "isobar",
+      "filter": ["==", ["%", ["get", "prmsl"], 20], 0],
+      "layout": {
+        "text-field": ["get", "prmsl"],
+        "text-font": ["Noto Sans Regular"],
+        "text-size": 12,
+        "symbol-placement": "line",
+        "text-rotation-alignment": "map",
+        "text-pitch-alignment": "viewport",
+        "visibility": "none"
+      },
+      "paint": {
+        "text-color": "#333333",
+        "text-halo-color": "#ffffff",
+        "text-halo-width": 1
+      },
+      "minzoom": 2
+    },
+    {
+      "id": "isobar-label_022",
+      "type": "symbol",
+      "source": "isobar_022",
+      "source-layer": "isobar",
+      "filter": ["==", ["%", ["get", "prmsl"], 20], 0],
+      "layout": {
+        "text-field": ["get", "prmsl"],
+        "text-font": ["Noto Sans Regular"],
+        "text-size": 12,
+        "symbol-placement": "line",
+        "text-rotation-alignment": "map",
+        "text-pitch-alignment": "viewport",
+        "visibility": "none"
+      },
+      "paint": {
+        "text-color": "#333333",
+        "text-halo-color": "#ffffff",
+        "text-halo-width": 1
+      },
+      "minzoom": 2
+    },
+    {
+      "id": "isobar-label_023",
+      "type": "symbol",
+      "source": "isobar_023",
+      "source-layer": "isobar",
+      "filter": ["==", ["%", ["get", "prmsl"], 20], 0],
+      "layout": {
+        "text-field": ["get", "prmsl"],
+        "text-font": ["Noto Sans Regular"],
+        "text-size": 12,
+        "symbol-placement": "line",
+        "text-rotation-alignment": "map",
+        "text-pitch-alignment": "viewport",
+        "visibility": "none"
+      },
+      "paint": {
+        "text-color": "#333333",
+        "text-halo-color": "#ffffff",
+        "text-halo-width": 1
+      },
+      "minzoom": 2
+    }
+  ]
+}
