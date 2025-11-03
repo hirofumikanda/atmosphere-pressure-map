@@ -11,9 +11,9 @@ const MapView: React.FC = () => {
     setTimeLayerVisibility
   } = useMap();
 
-  const handleTimeChange = useCallback((time: number) => {
+  const handleTimeChange = useCallback(async (time: number) => {
     setCurrentTime(time);
-    setTimeLayerVisibility(time);
+    await setTimeLayerVisibility(time);
   }, [setTimeLayerVisibility]);
 
   return (

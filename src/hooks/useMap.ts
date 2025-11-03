@@ -1,13 +1,47 @@
 import { useEffect, useRef, useCallback } from "react";
 import maplibregl from "maplibre-gl";
 import { Protocol } from "pmtiles";
+import { MapboxOverlay } from "@deck.gl/mapbox";
+import * as WeatherLayers from "weatherlayers-gl";
 
 export const useMap = () => {
   const mapContainerRef = useRef<HTMLDivElement | null>(null);
   const mapRef = useRef<maplibregl.Map | null>(null);
+  const deckOverlayRef = useRef<MapboxOverlay | null>(null);
+
+  // 風レイヤーを更新する関数
+  const updateWindLayer = useCallback(async (timeIndex: number) => {
+    const map = mapRef.current;
+    if (!map || !deckOverlayRef.current) return;
+
+    try {
+      const timeStr = timeIndex.toString().padStart(3, '0');
+      const imagePath = `./img/wind_20251101_${timeStr}.png`;
+      
+      const image = await WeatherLayers.loadTextureData(imagePath);
+
+      const particleLayer = new WeatherLayers.ParticleLayer({
+        id: 'particle',
+        numParticles: 5000,
+        maxAge: 10,
+        speedFactor: 30,
+        width: 2.5,
+        opacity: 0.1,
+        image: image,
+        bounds: [-180, -90, 180, 90],
+        imageUnscale: [-40, 40],
+      });
+
+      deckOverlayRef.current.setProps({
+        layers: [particleLayer]
+      });
+    } catch (error) {
+      console.error('Failed to load wind data:', error);
+    }
+  }, []);
 
   // レイヤーの可視性を制御する関数
-  const setTimeLayerVisibility = useCallback((timeIndex: number) => {
+  const setTimeLayerVisibility = useCallback(async (timeIndex: number) => {
     const map = mapRef.current;
     if (!map) return;
 
@@ -45,7 +79,10 @@ export const useMap = () => {
     if (map.getLayer(selectedLabelLayerId)) {
       map.setLayoutProperty(selectedLabelLayerId, 'visibility', 'visible');
     }
-  }, []);
+
+    // 風レイヤーも更新する
+    await updateWindLayer(timeIndex);
+  }, [updateWindLayer]);
 
   // 地図の初期化（一度だけ実行）
   useEffect(() => {
@@ -67,7 +104,18 @@ export const useMap = () => {
     map.addControl(new maplibregl.NavigationControl(), "top-right");
 
     // isobarsレイヤーがロードされた後にイベントリスナーを追加
-    map.on('load', () => {
+    map.on('load', async () => {
+      // DeckGL オーバーレイを初期化
+      const deckOverlay = new MapboxOverlay({
+        interleaved: true,
+        layers: []
+      });
+      deckOverlayRef.current = deckOverlay;
+      map.addControl(deckOverlay as any);
+
+      // 初期の風レイヤーを読み込み
+      await updateWindLayer(0);
+
       // 全ての等圧線レイヤーにマウスイベントを追加
       for (let i = 0; i <= 23; i++) {
         const timeStr = i.toString().padStart(3, '0');
